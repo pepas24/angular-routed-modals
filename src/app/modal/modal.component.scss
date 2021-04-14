@@ -1,0 +1,43 @@
+:host {
+	background-color: rgba( 0, 0, 0, 0.85 );
+	bottom: 0px;
+	cursor: pointer;
+	display: flex;
+	left: 0px;
+	overflow: auto;
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	z-index: 100;
+}
+
+.modal {
+	cursor: default;
+	margin: auto auto auto auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-content {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 420px;
+
+  h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+}
+
+.modal-body {
+  margin-top: 24px;
+}
+
+.modal-footer {
+  margin-top: 16px;
+}
